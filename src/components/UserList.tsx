@@ -88,7 +88,6 @@ function UserList() {
           </table>
         )}
       </div>
-
       <div
         style={{
           display: "flex",
@@ -98,7 +97,6 @@ function UserList() {
       >
         <BasicPagination />
       </div>
-
       {/* MODAL */}
       {openModal ? <UserModal /> : ""}
     </>

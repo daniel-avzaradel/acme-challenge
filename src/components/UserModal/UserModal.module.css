@@ -1,0 +1,51 @@
+.modal__modal,
+.modal__overlay {
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  padding: 0;
+  margin: 0;
+  position: fixed;
+}
+
+.modal__overlay {
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.modal__content {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 2em;
+  border: none;
+  border-radius: 10px;
+  background-color: hsl(210, 80%, 90%);
+  width: 600px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.8);
+}
+
+.modal__closeBtn {
+  border: none;
+  padding: 10px 20px;
+  margin: 10px 0;
+  background-color: hsl(210, 100%, 40%);
+  color: white;
+  border-radius: 4px;
+  display: block;
+  width: 100%;
+  transition: 0.15s ease;
+}
+
+.modal__closeBtn:hover {
+  background-color: hsl(210, 100%, 60%);
+}
+
+.modal__picture {
+  position: relative;
+  top: 0px;
+  right: 10px;
+  float: right;
+  border-radius: 50%;
+}

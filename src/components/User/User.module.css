@@ -1,0 +1,28 @@
+tbody tr:nth-child(odd) {
+  background-color: #e2e2e2;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+tbody tr {
+  transition: 0.14s ease-in-out;
+}
+
+.user__actions {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+tbody tr:hover {
+  background-color: rgb(162, 184, 202);
+  color: white;
+}
+
+@media screen and (min-width: 325px) and (max-width: 768px) {
+  tbody tr {
+    font-size: 0.8em;
+  }
+}

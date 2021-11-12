@@ -2,6 +2,7 @@ import { useContext, useEffect } from "react";
 
 import UserModal from "./UserModal/UserModal";
 import Filters from "./Filters/Filters";
+import BasicPagination from "../components/Pagination/Pagination";
 
 import { ListUsersContext } from "../context/listUsersContext";
 import { User } from "./User/User";
@@ -94,7 +95,9 @@ function UserList() {
           justifyContent: "center",
           margin: "20px auto",
         }}
-      ></div>
+      >
+        <BasicPagination />
+      </div>
 
       {/* MODAL */}
       {openModal ? <UserModal /> : ""}

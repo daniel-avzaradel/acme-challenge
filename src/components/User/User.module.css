@@ -16,6 +16,10 @@ tbody tr {
   align-items: center;
 }
 
+.user__actions div {
+  cursor: pointer;
+}
+
 tbody tr:hover {
   background-color: rgb(162, 184, 202);
   color: white;
